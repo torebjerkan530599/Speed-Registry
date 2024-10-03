@@ -1,0 +1,20 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Details for {{ mymeasurement.licence_plate }}
+{% endblock %}
+
+{% block content %}
+  <div class="measurement-details">
+    <p><strong>Type:</strong> {{ mymeasurement.make }}</p>
+    {% if mymeasurement.car_image %}
+    <p><strong>Car Image:</strong></p>
+      <img src="{{ mymeasurement.car_image.url }}" alt="Image of {{ mymeasurement.licence_plate }}" style="width:300px;height:auto;">
+    {% else %}
+      <p><strong>Car Image:</strong> No image available.</p>
+    {% endif %}
+
+  <p><a href="{% url 'measurements' %}">Back to Measurements</a></p>
+  <p>Back to <a href="/measurements">Traffic speed register</a></p>
+  </div>
+{% endblock %}
