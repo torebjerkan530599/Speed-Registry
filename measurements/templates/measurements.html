@@ -1,0 +1,45 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Traffic police - Speed Measurements
+{% endblock %}
+
+
+{% block content %}
+  <div class="mymeasures">
+    <!--h1>5 kilometers between cameras. Speed limit is set dynamically by the user</h1-->
+      <div class="form-container">
+        <form method="GET" action="">
+          <label for="speed_limit">Set Speed Limit:</label>
+          <select name="speed_limit" id="speed_limit" onchange="this.form.submit()">
+              <option value="30" {% if speed_limit == 30 %}selected{% endif %}>30 km/h</option>
+              <option value="40" {% if speed_limit == 40 %}selected{% endif %}>40 km/h</option>
+              <option value="50" {% if speed_limit == 50 %}selected{% endif %}>50 km/h</option>
+              <option value="60" {% if speed_limit == 60 %}selected{% endif %}>60 km/h</option>
+              <option value="70" {% if speed_limit == 70 %}selected{% endif %}>70 km/h</option>
+              <option value="80" {% if speed_limit == 80 %}selected{% endif %}>80 km/h</option>
+          </select>
+        </form>
+      </div>
+      <div class="measurements-table-container">  
+        <div class="measurements-table">
+          <div class="header-row">
+            <div class="header-cell">License Plate</div>
+            <div class="header-cell">Camera A</div>
+            <div class="header-cell">Camera B</div>
+            <div class="header-cell">Average Speed</div>
+          </div>
+        {% load custom_filters %}
+
+        {% for m in mymeasurements %}
+        <a href="{% url 'details' m.id %}" class="data-row{% if m.avg_speed|is_speed_offender:speed_limit %} speed-offender{% endif %}">
+            <div class="data-cell">{{ m.licence_plate }}</div>
+            <div class="data-cell">{{ m.time_a }}</div>
+            <div class="data-cell">{{ m.time_b }}</div>
+            <div class="data-cell">{{ m.avg_speed|floatformat:0 }}</div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,100 @@
+Ford Mustang
+Chevrolet Camaro
+Tesla Model S
+Toyota Corolla
+Honda Civic
+BMW 3 Series
+Audi A4
+Mercedes-Benz C-Class
+Lexus RX
+Volkswagen Golf
+Subaru Impreza
+Porsche 911
+Dodge Charger
+Nissan Altima
+Hyundai Sonata
+Kia Optima
+Jeep Wrangler
+Mazda CX-5
+Volvo XC90
+Range Rover Evoque
+Toyota Camry
+Ford F-150
+Chevrolet Silverado
+Ram 1500
+Honda Accord
+Nissan Sentra
+Tesla Model X
+BMW X5
+Audi Q5
+Mercedes-Benz GLE
+Lexus ES
+Volkswagen Passat
+Subaru Outback
+Porsche Cayenne
+Dodge Challenger
+Hyundai Elantra
+Kia Sorento
+Jeep Grand Cherokee
+Mazda 3
+Volvo S60
+Range Rover Velar
+Toyota Highlander
+Ford Explorer
+Chevrolet Tahoe
+Honda Pilot
+Nissan Rogue
+Tesla Model 3
+BMW 5 Series
+Audi A6
+Mercedes-Benz E-Class
+Lexus NX
+Volkswagen Jetta
+Subaru Forester
+Porsche Macan
+Dodge Durango
+Hyundai Tucson
+Kia Telluride
+Jeep Cherokee
+Mazda CX-3
+Volvo XC60
+Range Rover Sport
+Toyota RAV4
+Ford Escape
+Chevrolet Equinox
+Honda CR-V
+Nissan Murano
+Tesla Cybertruck
+BMW X3
+Audi Q7
+Mercedes-Benz GLS
+Lexus GX
+Volkswagen Tiguan
+Subaru Crosstrek
+Porsche Panamera
+Dodge Viper
+Hyundai Palisade
+Kia Stinger
+Jeep Gladiator
+Mazda MX-5 Miata
+Volvo XC40
+Range Rover Defender
+Toyota 4Runner
+Ford Bronco
+Chevrolet Blazer
+Honda Fit
+Nissan Maxima
+Tesla Roadster
+BMW Z4
+Audi TT
+Mercedes-Benz SL-Class
+Lexus LC
+Volkswagen Arteon
+Subaru BRZ
+Porsche Boxster
+Dodge Journey
+Hyundai Santa Fe
+Kia Soul
+Jeep Compass
+Mazda 6
+Volvo V90
