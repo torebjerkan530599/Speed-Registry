@@ -156,3 +156,5 @@ LOGGING = {
         },
     },
 }
+
+DATA_UPLOAD_MAX_MEMORY_SIZE = 5242880  # Set to 5MB
