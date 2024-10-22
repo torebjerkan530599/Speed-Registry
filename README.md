@@ -12,3 +12,4 @@ Det er et minimalt privat prosjekt der det ikke er tatt hensyn til andre ting en
 Prosjektet er på ingen måte ferdig, men kan kjøres. Regnes som WIP. Det betyr at 
 'DEBUG = True' i settings.
 
+NB: Jeg overlot jeg designet til chatGPT som sto for CSS og noe av HTML
